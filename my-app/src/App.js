@@ -1,17 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import ToDosctruct from "./ToDosctruct";
+import './App.css';
 
 function App() {
   return (
-    <div>
-        <p>Placeholder text button</p>
-        <input type = 'checkbox' />
-        <p>Placeholder text button</p>
-        <input type = 'checkbox' />
-        <p>Placeholder text button</p>
-        <input type = 'checkbox' />
-        <p>Placeholder text button</p>
-        <input type = 'checkbox' />
+    <div className='todo-list'>
+        <ToDosctruct />
+        <ToDosctruct />
+        <ToDosctruct />
+        <ToDosctruct />
     </div>
   );
 }
